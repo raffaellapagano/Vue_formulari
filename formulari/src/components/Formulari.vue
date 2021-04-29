@@ -44,6 +44,7 @@ export default {
     },
     methods: {
         registerValidate: function(){
+            this.errores = 
             if(this.errores == 0){
                 this.check = false;
                 alert("Todo ok")
